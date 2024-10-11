@@ -1,0 +1,96 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  width: 200px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.sidebar nav ul li:hover {
+  background-color: #34495e;
+}
+
+.main {
+  flex: 1;
+  background-color: #ecf0f1;
+}
+
+.dashboard {
+  padding: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: 200px;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.products {
+  background-color: #3498db;
+}
+
+.categories {
+  background-color: #e67e22;
+}
+
+.customers {
+  background-color: #2ecc71;
+}
+
+.alerts {
+  background-color: #e74c3c;
+}
+
+/* Add any additional styles for charts */
+.charts {
+  height: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* app/globals.css */
+
